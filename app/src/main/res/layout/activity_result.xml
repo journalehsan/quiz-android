@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+    
+        
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:textColor="#333"
+            android:rating="0.0"/>
+
+        <TextView
+            android:id="@+id/textResult"
+            android:textColor="#333"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="200sp"
+            android:text="Nothing"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/quiz"
+            android:layout_weight="0"
+            android:layout_height="250sp" />
+    </LinearLayout>
+
+</RelativeLayout>
