@@ -47,9 +47,9 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="150sp"
+            android:layout_height="180sp"
             android:layout_gravity="center"
-            android:src="@drawable/quiz" />
+            android:src="@drawable/question_man" />
 
         <Button
             android:id="@+id/button1"
